@@ -1,0 +1,118 @@
+.login-page {
+  max-width: 500px;
+  margin: auto;
+  color: #444444;
+  padding: 0 16px;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+  }
+
+  input {
+    width: 100%;
+    height: 48px;
+    margin: 10px 0;
+    border: 2px solid #777777;
+    outline: none;
+    padding: 0 10px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+
+    a {
+      color: crimson;
+    }
+
+    button {
+      width: 150px;
+      padding: 10px 0;
+      color: white;
+      background: black;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-right: 10px;
+    }
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  a {
+    color: #111111;
+    font-weight: 600;
+  }
+}
+
+/* ---------- Forgot Password ---------- */
+
+.forgot-password,
+.reset-password {
+  h2 {
+    color: #555555;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px 0;
+    letter-spacing: 1.3px;
+  }
+
+  .row {
+    max-width: 500px;
+    margin: auto;
+    padding: 0 10px;
+
+    input {
+      width: 100%;
+      height: 45px;
+      border: 1px solid #cccccc;
+      outline: none;
+      padding: 0 15px;
+      border-radius: 3px;
+      margin: 5px 0;
+    }
+
+    button {
+      background: #333333;
+      color: white;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      letter-spacing: 1.3px;
+      border-radius: 3px;
+      margin-top: 15px;
+      opacity: 0.85;
+      transition: opacity 0.05s linear;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+/* ---------- Google / Facebook ---------- */
+
+.login-page {
+  .hr {
+    margin: 15px 0;
+    color: crimson;
+  }
+
+  .social button {
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    box-shadow: 0 2px 4px #777777;
+  }
+}
