@@ -18,9 +18,6 @@
     "redux": "^4.0.5",
     "web-vitals": "^1.0.1"
   },
-  "optionalDependencies": {
-    "fsevents": "2.1.2"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
